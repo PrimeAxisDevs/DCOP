@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "activecampaign": {
+      "command": "node",
+      "args": ["mcp/activecampaign/server.mjs"]
+    }
+  }
+}
