@@ -2,9 +2,9 @@
 
 > PandaDoc template source. Tokens in `{{double.braces}}` become PandaDoc merge
 > fields when this is loaded via `templates_create` / `documents_create_from_markdown`.
-> Sections marked **[REVIEW]** contain proposed terms James has not yet confirmed —
-> review before first client use. Have the final version checked by an Australian
-> commercial lawyer before relying on it.
+> Terms confirmed by James 2026-07-03 (service credits, payment terms, liability,
+> termination). Have the final version checked by an Australian commercial lawyer
+> before relying on it.
 
 ---
 
@@ -12,7 +12,7 @@
 
 This Service Agreement ("Agreement") is entered into on **{{agreement.date}}** between:
 
-**Green Racks Pty Ltd** (ABN {{greenracks.abn}}) of Osborne Park, Western Australia
+**Green Racks Pty Ltd** (ABN 23 696 631 071) of Osborne Park, Western Australia
 ("Green Racks", "we", "us"); and
 
 **{{client.company}}** (ABN {{client.abn}}) of {{client.address}}, represented by
@@ -47,7 +47,7 @@ Green Racks commits to the following service levels, measured monthly:
 | Power availability | 99.95% |
 | Network availability | 99.9% |
 
-**[REVIEW] Service credits.** Where availability in a calendar month falls below the
+**Service credits.** Where availability in a calendar month falls below the
 target, the Client may claim a credit against the following month's fees: 5% of the
 monthly fee for each full 0.1% below target, capped at 50% of the monthly fee.
 Credits must be claimed within 30 days and are the Client's sole remedy for
@@ -58,7 +58,7 @@ measurement.
 ## 4. Fees and Payment
 
 - Fees are payable monthly in advance, invoiced to {{client.email}}.
-- Payment terms: **[REVIEW]** 14 days from invoice date.
+- Payment terms: 14 days from invoice date.
 - Additional services (remote hands at $207/hr with a 15-minute minimum,
   cross-connects, overage) are invoiced in arrears at the rates in Schedule A.
 - Fees may be adjusted with 30 days' written notice, no more than once per
@@ -70,8 +70,8 @@ measurement.
 - Keep account and contact details current, and secure any credentials issued.
 - For colocation: supplied hardware must be rack-compatible, safe, and lawfully
   owned; Green Racks may refuse or de-energise equipment posing a safety risk.
-- Comply with the Acceptable Use Policy at Schedule B **[REVIEW: attach or link]** —
-  no unlawful content, spam, or activity that degrades service for others.
+- Comply with the Acceptable Use Policy at Schedule B — no unlawful content,
+  spam, or activity that degrades service for others.
 
 ## 6. Data and Backups
 
@@ -83,7 +83,7 @@ measurement.
 
 ## 7. Liability
 
-**[REVIEW]** To the maximum extent permitted by law (including the Australian
+To the maximum extent permitted by law (including the Australian
 Consumer Law, whose non-excludable guarantees are not affected):
 
 - Green Racks' total aggregate liability under this Agreement is capped at the fees
@@ -99,7 +99,7 @@ Consumer Law, whose non-excludable guarantees are not affected):
 - Either party may terminate immediately for a material breach unremedied 14 days
   after written notice, or on the other party's insolvency.
 - On termination for the Client's unremedied breach during the Initial Term, the
-  remaining fees for the Initial Term become payable. **[REVIEW]**
+  remaining fees for the Initial Term become payable.
 
 ## 9. General
 
@@ -122,4 +122,4 @@ Consumer Law, whose non-excludable guarantees are not affected):
 
 **Schedule A — Pricing Schedule** (attach `docs/pricing-schedule.md` current version)
 
-**Schedule B — Acceptable Use Policy** **[REVIEW: to be drafted]**
+**Schedule B — Acceptable Use Policy** (attach `docs/acceptable-use-policy.md` current version)
