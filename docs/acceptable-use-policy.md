@@ -94,7 +94,7 @@ You must not use the services to:
 ## 8. Reporting abuse
 
 Report suspected abuse of Green Racks services to: **abuse@green-racks.com**
-**[REVIEW: confirm this mailbox exists and is monitored]**
+(confirmed live and monitored, 2026-07-05).
 
 Green Racks may update this AUP with 30 days' notice; continued use of the
 services after the notice period constitutes acceptance.
